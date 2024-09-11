@@ -40,8 +40,9 @@ We provide the trained model for University-1652 in the link below:
 https://drive.google.com/file/d/1qHjXr3VVQuJZ5kE5u7YrUB8id90Nv2GJ/view?usp=sharing
 
 and the trained models for SUES-200:
-https://drive.google.com/file/d/14ybgPvezIP9Yv9QOGzYbS-YpRj738p8u/view?usp=sharing, 
-https://drive.google.com/file/d/1D3IZ209quCbyLq5Gib-ZUjQN2WBc8smA/view?usp=sharing, https://drive.google.com/file/d/1Tvbz0D24uVHD2VK8KBGgBnfA3QCm3lXr/view?usp=sharing, 
-https://drive.google.com/file/d/1pjY1ubfyvFbITB1c6n-I7cdp7QHJv0WD/view?usp=sharing
+for 150m: https://drive.google.com/file/d/14ybgPvezIP9Yv9QOGzYbS-YpRj738p8u/view?usp=sharing
+for 200m: https://drive.google.com/file/d/1D3IZ209quCbyLq5Gib-ZUjQN2WBc8smA/view?usp=sharing 
+for 250m: https://drive.google.com/file/d/1Tvbz0D24uVHD2VK8KBGgBnfA3QCm3lXr/view?usp=sharing 
+for 300m: https://drive.google.com/file/d/1pjY1ubfyvFbITB1c6n-I7cdp7QHJv0WD/view?usp=sharing
 
 We will update this repository for better clarity ASAP, current version is for quick research for researchers interested in the cross-view geo-localization task.
