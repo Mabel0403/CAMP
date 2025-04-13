@@ -73,6 +73,9 @@ class Configuration:
         parser.add_argument('--learn_weight_D_fine_D_fine', default=0.5, type=float)
         parser.add_argument('--learn_weight_S_fine_S_fine', default=0., type=float)
 
+        # =========================================================================
+        parser.add_argument('--blocks_for_PPB', default=3, type=int)
+        
         parser.add_argument('--if_use_plus_1', default=False, type=bool)
         parser.add_argument('--if_use_multiply_1', default=True, type=bool)
         parser.add_argument('--only_DS', default=False, type=bool)
