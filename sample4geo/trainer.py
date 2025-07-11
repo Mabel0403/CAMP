@@ -51,6 +51,8 @@ def train(train_config, model, dataloader, loss_functions, optimizer, epoch, tra
 
                 if torch.cuda.device_count() > 1 and len(train_config.gpu_ids) > 1:
                     loss = loss_functions["infoNCE"](features1, features2, model.module.logit_scale.exp())
+                    loss_D_D = loss_functions["infoNCE"](features1, features1, model.module.logit_scale.exp())
+                    loss_S_S = loss_functions["infoNCE"](features2, features2, model.module.logit_scale.exp())
                 else:
                     # 1. infoNCE
                     loss = loss_functions["infoNCE"](features1, features2, model.logit_scale.exp())
